@@ -1,0 +1,32 @@
+@font-face {
+  font-family: BRoya;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/BRoya.eot');
+  src: url('fonts/BRoya.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+       url('fonts/BRoya.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('fonts/BRoya.ttf') format('truetype');
+  }
+* {
+  direction: rtl;
+  font-family: BRoya;
+}
+
+.layout {
+  min-height: 100vh !important;
+}
+.ant-menu {
+  text-align: right !important;
+}
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 70vh;
+}
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
